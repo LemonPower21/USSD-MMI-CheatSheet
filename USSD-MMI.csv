@@ -6,6 +6,11 @@ Privacy,Anonimo (Disattiva),#31#,Mostra il numero se precedentemente nascosto.
 Privacy,Anonimo (Stato),*#31#,Verifica se l'ID chiamante è attivo o nascosto.
 Rete,Avviso di Chiamata,*43# / #43#,Attiva o disattiva l'avviso di chiamata in entrata.
 Rete,Reset Deviazioni,##002#,Disattiva istantaneamente tutte le deviazioni di chiamata.
+Sicurezza,Blocco Tutte Entrata,*35*Password#,Inibisce la ricezione di tutte le chiamate in arrivo.
+Sicurezza,Sblocca Tutte Entrata,#35*Password#,Riabilita la ricezione delle chiamate in entrata.
+Sicurezza,Blocco Tutte Uscita,*33*Password#,Inibisce l'effettuazione di tutte le chiamate in uscita.
+Sicurezza,Sblocca Tutte Uscita,#33*Password#,Riabilita le chiamate in uscita.
+Sicurezza,Stato Blocchi,*#33# / *#35#,Verifica se ci sono blocchi attivi su uscita o entrata.
 Hardware,Test Generale (Samsung),*#0#*,Menu di test completo per LCD e sensori.
 Hardware,Test Touch Screen,*#*#2664#*#*,Verifica la precisione e i punti morti del pannello.
 Hardware,Sensore Prossimità,*#*#0588#*#*,Test del sensore che spegne lo schermo in chiamata.
