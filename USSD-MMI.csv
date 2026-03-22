@@ -1,30 +1,32 @@
 Categoria,Funzione,Codice,Descrizione
-Identità,Visualizza IMEI,*#06#,Identificativo univoco del dispositivo
-Identità,Info Telefono e Batteria,*#*#4636#*#*,Info hardware e statistiche d'uso [cite: 1, 2, 3]
-Privacy,Anonimo (Attiva),*31#,Nasconde il numero per la prossima chiamata
-Privacy,Anonimo (Disattiva),#31#,Mostra il numero se precedentemente nascosto
-Privacy,Anonimo (Stato),*#31#,Verifica se l'ID chiamante è attivo
-Rete,Avviso di Chiamata,*43#/#43#,Attiva o disattiva l'avviso di chiamata in entrata
-Rete,Reset Deviazioni,##002#,Disattiva tutte le deviazioni di chiamata attive
-Rete,GTalk Service Monitor,*#*#8255#*#*,Lancia il monitoraggio del servizio GTalk [cite: 34, 35]
-Inoltro,Devia se occupato,*#67#,Controlla il numero per la deviazione quando occupato
-Inoltro,Devia se non rispondi,*#61#,Controlla numero e tempo di squillo prima della deviazione
-Hardware,Test Display LCD,*#*#0*#*#*,Esegue il test dei colori e dei pixel [cite: 43]
-Hardware,Test Touch Screen,*#*#2664#*#*,Verifica la precisione del pannello touch [cite: 47]
-Hardware,Sensore Prossimità,*#*#0588#*#*,Test del sensore di spegnimento schermo [cite: 48]
-Hardware,Vibrazione e Backlight,*#*#0842#*#*,Test del motorino vibrante e retroilluminazione [cite: 45]
-Hardware,Test Audio,*#*#0673#*#*,Esegue test delle melodie e degli altoparlanti [cite: 44]
-Hardware,Info Fotocamera,*#*#34971539#*#*,Dettagli firmware fotocamera (⚠️ Pericoloso: non aggiornare!) [cite: 12, 13, 14, 15]
-Connettività,WLAN Test,*#*#232339#*#*,Avvia test della rete wireless [cite: 26, 27]
-Connettività,MAC Wi-Fi,*#*#232338#*#*,Mostra l'indirizzo MAC della scheda Wi-Fi [cite: 29]
-Connettività,Test Bluetooth,*#*#232331#*#*,Verifica il funzionamento del chip Bluetooth [cite: 32]
-Connettività,Test GPS,*#*#1472365#*#*,Esegue un test rapido del ricevitore GPS [cite: 30]
-Firmware,Versione RAM,*#*#3264#*#*,Visualizza la versione della memoria RAM [cite: 49]
-Firmware,PDA e Phone,*#*#1234#*#*,Mostra le versioni firmware PDA e Telefono [cite: 38]
-Firmware,SW e HW FTA,*#*#1111#*#*,Visualizza le versioni Software e Hardware FTA [cite: 39, 40]
-Firmware,Dettagli Build,*#*#44336#*#*,Mostra Build Time e numero Changelist [cite: 41]
-Utility,Backup Media,*#*#273283*255*663282*#*#*,Apre la schermata per il backup dei file multimediali [cite: 20, 21, 22]
-Utility,Service Mode,*#*#197328640#*#*,Entra nel menu di servizio per test e settaggi avanzati [cite: 23, 24, 25]
-Utility,Azione Tasto Power,*#*#7594#*#*,Cambia il comportamento del tasto accensione/fine chiamata [cite: 16, 17, 18, 19]
-Reset,Factory Reset,*#*#7780#*#*,Cancella account Google e dati delle applicazioni [cite: 4, 5, 6]
-Reset,Factory Format,*2767*3855#,Formatta la memoria interna e reinstalla il firmware [cite: 9, 10, 11]
+Identità,Visualizza IMEI,*#06#,Identificativo univoco del dispositivo.
+Identità,Info Telefono e Batteria,*#*#4636#*#*,"Info hardware, batteria e statistiche d'uso."
+Privacy,Anonimo (Attiva),*31#,Nasconde il numero per la prossima chiamata.
+Privacy,Anonimo (Disattiva),#31#,Mostra il numero se precedentemente nascosto.
+Privacy,Anonimo (Stato),*#31#,Verifica se l'ID chiamante è attivo.
+Rete,Avviso di Chiamata,*43# / #43#,Gestisce l'avviso di chiamata in entrata.
+Rete,Reset Deviazioni,##002#,Disattiva tutte le deviazioni di chiamata.
+Rete,GTalk Monitor,*#*#8255#*#*,Lancia il monitoraggio del servizio GTalk.
+Hardware,Test Display LCD,*#*#0*#*#*,Esegue il test dei colori e dei pixel.
+Hardware,Test Touch Screen,*#*#2664#*#*,Verifica la precisione del pannello touch.
+Hardware,Sensore Prossimità,*#*#0588#*#*,Test del sensore di spegnimento schermo.
+Hardware,Vibrazione/Backlight,*#*#0842#*#*,Test motorino vibrante e retroilluminazione.
+Hardware,Test Audio,*#*#0673#*#*,Test delle melodie e degli altoparlanti.
+Hardware,Info Fotocamera,*#*#34971539#*#*,Dettagli firmware (⚠️ Non aggiornare!) .
+Hardware,Packet Loopback,*#*#0283#*#*,Test di loopback dei pacchetti dati.
+Connettività,WLAN Test,*#*#232339#*#*,Avvia i test della rete wireless.
+Connettività,MAC Wi-Fi,*#*#232338#*#*,Mostra l'indirizzo MAC Wi-Fi.
+Connettività,Test Bluetooth,*#*#232331#*#*,Verifica il chip Bluetooth.
+Connettività,Indirizzo Bluetooth,*#*#232337#*#,Mostra l'indirizzo del dispositivo Bluetooth.
+Connettività,Test GPS,*#*#1472365#*#*,Esegue un test rapido del ricevitore GPS.
+Firmware,Versione RAM,*#*#3264#*#*,Visualizza la versione della memoria RAM.
+Firmware,PDA e Phone,*#*#1234#*#*,Versioni firmware PDA e Telefono.
+Firmware,SW FTA,*#*#1111#*#*,Visualizza la versione software FTA.
+Firmware,HW FTA,*#*#2222#*#*,Visualizza la versione hardware FTA.
+Firmware,Dettagli Build,*#*#44336#*#*,Build Time e numero Changelist.
+Firmware,Info RF/Hardware,*#*#4986*2650468#*#*,"Dettagli su PDA, Phone e RF Call Date."
+Utility,Backup Media,*#*#273283*...*#*#*,Schermata per il backup di immagini e video .
+Utility,Service Mode,*#*#197328640#*#*,Menu di servizio per test avanzati .
+Utility,Azione Tasto Power,*#*#7594#*#*,Cambia comportamento tasto accensione .
+Reset,Factory Reset,*#*#7780#*#*,Cancella account Google e dati app .
+Reset,Factory Format,*2767*3855#,Formatta tutto e reinstalla il firmware .
