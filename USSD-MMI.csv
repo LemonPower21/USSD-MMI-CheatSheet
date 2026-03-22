@@ -1,32 +1,23 @@
 Categoria,Funzione,Codice,Descrizione
-Identità,Visualizza IMEI,*#06#,Identificativo univoco del dispositivo.
-Identità,Info Telefono e Batteria,*#*#4636#*#*,"Info hardware, batteria e statistiche d'uso."
-Privacy,Anonimo (Attiva),*31#,Nasconde il numero per la prossima chiamata.
+Identità,Visualizza IMEI,*#06#,Identificativo univoco universale del dispositivo.
+Identità,Info Telefono e Batteria,*#*#4636#*#*,"Statistiche d'uso, info batteria e dettagli rete."
+Privacy,Anonimo (Attiva),*31#,Nasconde il numero per la chiamata successiva.
 Privacy,Anonimo (Disattiva),#31#,Mostra il numero se precedentemente nascosto.
-Privacy,Anonimo (Stato),*#31#,Verifica se l'ID chiamante è attivo.
-Rete,Avviso di Chiamata,*43# / #43#,Gestisce l'avviso di chiamata in entrata.
-Rete,Reset Deviazioni,##002#,Disattiva tutte le deviazioni di chiamata.
-Rete,GTalk Monitor,*#*#8255#*#*,Lancia il monitoraggio del servizio GTalk.
-Hardware,Test Display LCD,*#*#0*#*#*,Esegue il test dei colori e dei pixel.
-Hardware,Test Touch Screen,*#*#2664#*#*,Verifica la precisione del pannello touch.
-Hardware,Sensore Prossimità,*#*#0588#*#*,Test del sensore di spegnimento schermo.
-Hardware,Vibrazione/Backlight,*#*#0842#*#*,Test motorino vibrante e retroilluminazione.
-Hardware,Test Audio,*#*#0673#*#*,Test delle melodie e degli altoparlanti.
-Hardware,Info Fotocamera,*#*#34971539#*#*,Dettagli firmware (⚠️ Non aggiornare!) .
-Hardware,Packet Loopback,*#*#0283#*#*,Test di loopback dei pacchetti dati.
-Connettività,WLAN Test,*#*#232339#*#*,Avvia i test della rete wireless.
-Connettività,MAC Wi-Fi,*#*#232338#*#*,Mostra l'indirizzo MAC Wi-Fi.
-Connettività,Test Bluetooth,*#*#232331#*#*,Verifica il chip Bluetooth.
-Connettività,Indirizzo Bluetooth,*#*#232337#*#,Mostra l'indirizzo del dispositivo Bluetooth.
-Connettività,Test GPS,*#*#1472365#*#*,Esegue un test rapido del ricevitore GPS.
-Firmware,Versione RAM,*#*#3264#*#*,Visualizza la versione della memoria RAM.
-Firmware,PDA e Phone,*#*#1234#*#*,Versioni firmware PDA e Telefono.
-Firmware,SW FTA,*#*#1111#*#*,Visualizza la versione software FTA.
-Firmware,HW FTA,*#*#2222#*#*,Visualizza la versione hardware FTA.
-Firmware,Dettagli Build,*#*#44336#*#*,Build Time e numero Changelist.
-Firmware,Info RF/Hardware,*#*#4986*2650468#*#*,"Dettagli su PDA, Phone e RF Call Date."
-Utility,Backup Media,*#*#273283*...*#*#*,Schermata per il backup di immagini e video .
-Utility,Service Mode,*#*#197328640#*#*,Menu di servizio per test avanzati .
-Utility,Azione Tasto Power,*#*#7594#*#*,Cambia comportamento tasto accensione .
-Reset,Factory Reset,*#*#7780#*#*,Cancella account Google e dati app .
-Reset,Factory Format,*2767*3855#,Formatta tutto e reinstalla il firmware .
+Privacy,Anonimo (Stato),*#31#,Verifica se l'ID chiamante è attivo o nascosto.
+Rete,Avviso di Chiamata,*43# / #43#,Attiva o disattiva l'avviso di chiamata in entrata.
+Rete,Reset Deviazioni,##002#,Disattiva istantaneamente tutte le deviazioni di chiamata.
+Hardware,Test Generale (Samsung),*#0#*,Menu di test completo per LCD e sensori.
+Hardware,Test Touch Screen,*#*#2664#*#*,Verifica la precisione e i punti morti del pannello.
+Hardware,Sensore Prossimità,*#*#0588#*#*,Test del sensore che spegne lo schermo in chiamata.
+Hardware,Vibrazione/Backlight,*#*#0842#*#*,Test del motorino vibrante e della retroilluminazione.
+Hardware,Test Audio,*#*#0673#*#*,Test degli altoparlanti e delle frequenze audio.
+Hardware,Info Fotocamera,*#*#34971539#*#*,"Dettagli firmware fotocamera (ATTENZIONE: Non aggiornare)."
+Connettività,MAC Wi-Fi,*#*#232338#*#*,Visualizza l'indirizzo fisico della scheda Wi-Fi.
+Connettività,Test Bluetooth,*#*#232331#*#*,Esegue un test di connessione del chip Bluetooth.
+Connettività,Test GPS,*#*#1472365#*#*,Esegue un test rapido del ricevitore GPS integrato.
+Firmware,PDA e Phone,*#*#1234#*#*,Versioni firmware PDA e parte telefonica (Samsung).
+Firmware,Dettagli Build,*#*#44336#*#*,Mostra Build Time e numero della Changelist.
+Utility,Backup Media,*#*#273282*255*663282*#*#*,Schermata per il backup rapido di immagini e video.
+Utility,Service Mode,*#*#197328640#*#*,Menu di servizio per test ingegneristici avanzati.
+Reset,Factory Reset,*#*#7780#*#*,Ripristino dati di fabbrica (mantiene il firmware attuale).
+Reset,Factory Format,*2767*3855#,Formattazione totale e reinstallazione del firmware.
